@@ -18,9 +18,8 @@ from django.urls import path
 from app01 import views
 from django.conf.urls import url
 
-
 urlpatterns = [
     path('admin/', admin.site.urls),
-    #url('userInfor/', views.userInfor),
-    url('userInfor2/', views.userInfor2),
+    url('userInfo/', views.userInfo),
+    url('userInfor2/', views.userInforx),
 ]
